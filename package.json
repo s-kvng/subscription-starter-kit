@@ -19,7 +19,8 @@
     "supabase:generate-migration": "npx supabase db diff | npx supabase migration new",
     "supabase:generate-seed": "npx supabase db dump --data-only -f supabase/seed.sql",
     "supabase:push": "npx supabase db push",
-    "supabase:pull": "npx supabase db pull"
+    "supabase:pull": "npx supabase db pull",
+    "supabase:migration-up": "npx supabase migration up"
   },
   "dependencies": {
     "@radix-ui/react-toast": "^1.1.5",
